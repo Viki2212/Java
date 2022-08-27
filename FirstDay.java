@@ -21,7 +21,7 @@ public class FirstDay {
         System.out.println(pincode);
         System.out.println(like);
 
-        
+    
     }
 
 }
