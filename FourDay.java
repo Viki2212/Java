@@ -9,4 +9,16 @@ public class FourDay {
         int num3 = a + b;
         return num3;
     }
+    int c;
+    void fourth(int a, int b){
+        int c = 10;
+        System.out.println(a+b+this.c);
+    }
+    public static void main(String[] args){
+        FourDay obj = new FourDay();
+        obj.fourth(10, 10 );
+
+    }
 }
+
+
