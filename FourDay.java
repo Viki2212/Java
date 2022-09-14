@@ -18,6 +18,8 @@ public class FourDay {
         FourDay obj = new FourDay();
         obj.fourth(10, 10 );
 
+        
+
     }
 }
 
