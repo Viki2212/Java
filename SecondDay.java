@@ -1,24 +1,28 @@
-class ThirdDay {
-    public String CarModel() {
-        String Model = "Swift";
-        String Brand = "Maruthi";
-        return Model +" "+ Brand;
-    }
-    public boolean CarCondition() {
-        boolean Damage = true;
-        boolean insurance = false;
-        return true;
-    }
-    public void CarPrice() {
-        int OnRoad = 140000;
-        int tax = 15000;
-        System.out.println(OnRoad);
-        System.out.println(tax);
-    }
-    public int OrgPrice(){
-        int Price = 145000;
-        /*System.out.println(Price);*/
-        return Price;
+package selenium;
 
-    }
+public class SecondDay {
+
+	public	String carDetails() {
+		String CarModel = "Maruthi Swift";
+				return CarModel;
+	}
+	
+	public int carPrice() {
+		int CarPrice = 150000;
+		int insurance = 40000;
+		int total = (CarPrice + insurance);
+		return total;
+	}
+
+	public void carAvailable () {
+		System.out.println("Yes this model is available");
+	}
+	
+	public boolean carDamage() {
+		System.out.println("No damages");
+		return true;
+	}
+	
+	public int a = 10;
+	public int b = 20;
 }

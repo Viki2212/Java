@@ -1,27 +1,26 @@
+package selenium;
+
 public class FirstDay {
 
-    public static void main(String[] args){
-        String name = "Viki";
-        char initial = 's';
-        byte age = 28;
-        float height = 168.5F;
-        double weight = 88.5555;
-        short salary = 10000;
-        long phoneNo = 9629017523L;
-        int pincode = 636005;
-        boolean like = true;
+	public static void main(String[] args) {
+		String name = "Vignesh Sekar";
+		byte age = 29;
+		int pincode = 636005;
+		long number = 9629017523L;
+		float height = 6.7f;
+		double weight = 80.05;
+		boolean result = true;
+		char grade = 'A';
+		
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(pincode);
+		System.out.println(number);
+		System.out.println(height);
+		System.out.println(weight);
+		System.out.println(result);
+		System.out.println(grade);
 
-        System.out.println(name);
-        System.out.println(initial);
-        System.out.println(age);
-        System.out.println(height);
-        System.out.println(weight);
-        System.out.println(salary);
-        System.out.println(phoneNo);
-        System.out.println(pincode);
-        System.out.println(like);
-
-    
-    }
+	}
 
 }
