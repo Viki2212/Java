@@ -7,7 +7,7 @@ public class StaticFunction {
 	}
 	
 	int c;
-	static int a;
+	static int a = 10;
 	
 	public void eat() {
 		System.out.println("Eating time is = " + c);
