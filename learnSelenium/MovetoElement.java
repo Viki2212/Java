@@ -10,10 +10,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.io.FileHandler;
 
-public class Test {
+public class MovetoElement {
 
-	public static void main(String[] args) throws IOException, InterruptedException  {
-		
+	public static void main(String[] args) throws InterruptedException, IOException {
 		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		
