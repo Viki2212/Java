@@ -15,14 +15,19 @@ public class Static {
 		Static st = new Static();
 		st.counter();
 		st.counter();
+		
 		System.out.println("New Class");
+		
 		Static st1 = new Static();
 		st1.counter();
 		st1.counter();
+		
 		System.out.println("New Class");
+		
 		Static st2 = new Static();
 		st2.counter();
 		st2.counter();
+		
 		StaticFunction nf = new StaticFunction();
 		nf.eat();
 		StaticFunction.Sleep();
